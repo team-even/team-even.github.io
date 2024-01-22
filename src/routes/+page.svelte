@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Hero from "$lib/components/Hero.svelte";
+    import Product from "$lib/components/Product.svelte";
+    import FAQ from "$lib/components/FAQ.svelte";
+    import Conversion from "$lib/components/Conversion.svelte";
+</script>
+
+<Hero />
+<!-- Product / -->
+<FAQ />
+<!-- Conversion / -->
