@@ -1,11 +1,11 @@
 <script>
     import Hero from "$lib/components/Hero.svelte";
-    import Product from "$lib/components/Product.svelte";
+    import Sponsors from "$lib/components/Sponsors.svelte";
     import FAQ from "$lib/components/FAQ.svelte";
     import Conversion from "$lib/components/Conversion.svelte";
 </script>
 
 <Hero />
-<!-- Product / -->
+<Sponsors />
 <FAQ />
 <!-- Conversion / -->

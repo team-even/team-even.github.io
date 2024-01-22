@@ -1,5 +1,4 @@
 <script>
-    import SectionWrapper from "$lib/components/SectionWrapper.svelte";
     let staff_list = [
         {
             name: "Brooklyn",
@@ -19,13 +18,17 @@
     ]
 </script>
 
-<section class="w-full p-40">
+<section class="section-primary">
     <h1 class="text-center text-5xl font-header">Our Team</h1>
     {#each staff_list as staff}
-    <div class="m-10 bg-accent p-10">
-        <img class="w-20" src="{staff.pic}" alt="{staff.name}">
-        <h1 class="font-header text-xl">{staff.name}</h1>
-        <h2 class="font-body text-lg">{staff.bio}</h2>
+    <div class="flex m-10 bg-accent p-10 rounded">
+        <div class="mx-5 h-full w-10">
+            <img src="{staff.pic}" alt="{staff.name}">
+        </div>
+        <div>
+            <h1 class="font-header text-3xl">{staff.name}</h1>
+            <h2 class="font-body text-lg">{staff.bio}</h2>
+        </div>
     </div>
     {/each}
 </section>

@@ -1,11 +1,11 @@
 <script>
-    import SectionWrapper from "$lib/components/SectionWrapper.svelte";
     import * as Accordion from "$lib/components/ui/accordion";
     import AccordionContent from "./ui/accordion/accordion-content.svelte";
+    import AccordionItem from "./ui/accordion/accordion-item.svelte";
     import AccordionTrigger from "./ui/accordion/accordion-trigger.svelte";
 </script>
 
-<section class="p-40 font-body text-2xl">
+<section class="px-52 py-20 font-body text-2xl">
 <Accordion.Root>
   <Accordion.Item value="item-1">
     <Accordion.Trigger>What is EVEN?</Accordion.Trigger>
@@ -16,8 +16,14 @@
   <Accordion.Item value="item-2">
     <Accordion.Trigger>Is it free?</Accordion.Trigger>
     <Accordion.Content>
-        Well... pricing may very.
+      To be determined.
     </Accordion.Content>
+  </Accordion.Item>
+  <Accordion.Item value="item-3">
+    <Accordion.Trigger>Where can I use it?</Accordion.Trigger>
+      <Accordion.Content>
+        EVEN will be available to the public as a browser web application.
+      </Accordion.Content>
   </Accordion.Item>
 </Accordion.Root>
 </section>

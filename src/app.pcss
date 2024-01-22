@@ -74,9 +74,11 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-html {
-  scroll-behavior: smooth;
+ }
+ .link-primary {
+  @apply hover:underline cursor-pointer;
+ }
+ .section-primary {
+  @apply px-52 py-20 w-full;
+ }
 }

@@ -1,5 +1,4 @@
 <script>
-    import SectionWrapper from "./SectionWrapper.svelte";
 </script>
 
 <section>
