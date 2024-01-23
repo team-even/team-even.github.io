@@ -5,7 +5,7 @@
     import AccordionTrigger from "./ui/accordion/accordion-trigger.svelte";
 </script>
 
-<section class="px-52 py-20 font-body text-2xl">
+<section class="lg:px-40 lg:py-20 px-10 py-5 font-body text-2xl">
 <Accordion.Root>
   <Accordion.Item value="item-1">
     <Accordion.Trigger>What is EVEN?</Accordion.Trigger>

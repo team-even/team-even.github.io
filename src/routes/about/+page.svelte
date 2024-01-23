@@ -18,16 +18,16 @@
     ]
 </script>
 
-<section class="section-primary">
+<section class="flex flex-col section-primary">
     <h1 class="text-center text-5xl font-header">Our Team</h1>
     {#each staff_list as staff}
-    <div class="flex m-10 bg-accent p-10 rounded">
-        <div class="mx-5 h-full w-10">
+    <div class="flex lg:flex-row flex-col lg:m-10 m-2 bg-accent lg:p-10 p-5 rounded">
+        <div class="mx-5 lg:h-10 lg:w-10">
             <img src="{staff.pic}" alt="{staff.name}">
         </div>
         <div>
-            <h1 class="font-header text-3xl">{staff.name}</h1>
-            <h2 class="font-body text-lg">{staff.bio}</h2>
+            <h1 class="font-header lg:text-3xl text-lg">{staff.name}</h1>
+            <h2 class="font-body lg:text-lg text-sm">{staff.bio}</h2>
         </div>
     </div>
     {/each}

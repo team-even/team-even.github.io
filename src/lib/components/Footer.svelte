@@ -8,15 +8,13 @@
         </div>
         <div class="flex flex-col gap-4">
             <p class="font-bold poppins text-base sm:text-lg">Resources</p>
-            <a href="" target="_blank" class="link-primary">Contact Us</a>
+            <a href="mailto:teameven.execs@gmail.com" target="_blank" class="link-primary">Contact Us</a>
             <a href="/blog" target="_blank" class="link-primary">Blog</a>
             <a href="/about" target="_blank" class="link-primary">About</a>
         </div>
         <div class="flex flex-col gap-4">
-            <p class="font-bold poppins text-base sm:text-lg">Connect</p>
-            <a href="" target="_blank" class="link-primary">Instagram</a>
-            <a href="" target="_blank" class="link-primary">YouTube</a>
-            <a href="" target="_blank" class="link-primary">Twitter</a>
+            <p class="font-bold poppins text-base sm:text-lg">Socials</p>
+            <a href="https://www.instagram.com/even.works/" target="_blank" class="link-primary">Instagram</a>
             <a href="" target="_blank" class="link-primary">TikTok</a>
         </div>
     </div>
