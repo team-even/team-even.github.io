@@ -4,10 +4,10 @@
     import { Sun, Moon } from "radix-icons-svelte";
 </script>
 
-<header class="flex items-center lg:px-5 lg:py-2 p-0">
-    <div class="font-header flex lg:flex-row flex-col items-center justify-between lg:p-4 py-2 w-full lg:mx-auto z-20">
+<header>
+    <div class="font-header flex lg:flex-row flex-col items-center justify-between lg:p-4 py-2 w-full lg:mx-auto">
         <div>
-            <a class="text-2xl link-primary drop-shadow-lg" href="/"><img class="lg:w-40 w-20" src="/text_white.png" alt="EVEN"></a>
+            <a class="link-primary drop-shadow-lg" href="/"><img class="lg:w-40 w-20" src="/text_white.png" alt="EVEN"></a>
         </div>
         <div class="flex items-center justify-around gap-10 text-xl">
             <a class="link-primary" href="/about">About</a>

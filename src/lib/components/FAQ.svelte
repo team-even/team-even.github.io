@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import * as Accordion from "$lib/components/ui/accordion";
     import AccordionContent from "./ui/accordion/accordion-content.svelte";
     import AccordionItem from "./ui/accordion/accordion-item.svelte";
