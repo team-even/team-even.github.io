@@ -15,7 +15,7 @@
         <div class="flex flex-col gap-4">
             <p class="font-bold poppins text-base sm:text-lg">Socials</p>
             <a href="https://www.instagram.com/even.works/" target="_blank" class="link-primary">Instagram</a>
-            <a href="" target="_blank" class="link-primary">TikTok</a>
+            <a href="/" target="_blank" class="link-primary">TikTok</a>
         </div>
     </div>
 </footer>
