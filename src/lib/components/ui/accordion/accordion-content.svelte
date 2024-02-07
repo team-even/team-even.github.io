@@ -8,14 +8,14 @@
 	let className: $$Props["class"] = undefined;
 	export let transition: $$Props["transition"] = slide;
 	export let transitionConfig: $$Props["transitionConfig"] = {
-		duration: 200
+		duration: 200,
 	};
 
 	export { className as class };
 </script>
 
 <AccordionPrimitive.Content
-	class={cn("overflow-hidden text-xl font-body", className)}
+	class={cn("overflow-hidden text-lg font-body", className)}
 	{transition}
 	{transitionConfig}
 	{...$$restProps}
