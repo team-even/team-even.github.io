@@ -1,12 +1,12 @@
-<section class="flex md:flex-row flex-col items-center justify-evenly w-full py-56 z-0">
-    <div class="flex-col items-start justify-start">
-        <h1 class="text-8xl font-header">
-            Work-life<br>
-            <span class="bg-gradient-to-r from-[#1E3864] via-[#7259A9] via-50% to-[#CC7000] inline-block text-transparent bg-clip-text">Balance</span>
+<section class="flex md:flex-row flex-col md:items-start items-center justify-center w-full m-auto md:py-56 py-36">
+    <div class="flex flex-col md:items-start items-center justify-center">
+        <h1 class="md:text-9xl text-6xl font-header">Work-life</h1>
+        <h1 class="font-header md:text-9xl text-6xl bg-gradient-to-r from-[#1E3864] via-[#7259A9] via-50% to-[#CC7000] inline-block text-transparent bg-clip-text">
+            Balance
         </h1>
-        <h2 class="text-2xl font-body py-5 ml-2 opacity-80 tracking-tight">Even is an all in one AI-integrated workspace that handles the stress so you can do the rest.</h2>
+        <h2 class="md:text-3xl text-xl font-body py-5 opacity-80 tracking-tight md:ml-2 max-w-[55%] md:text-left text-center">Even is an all in one AI-integrated workspace that handles the stress so you can do the rest.</h2>
     </div>
-    <div>
-        <h1 class="text-6xl">hey</h1>
+    <div class="flex justify-center items-center">
+        <h1 class="md:text-6xl text-3xl">hey</h1>
     </div>
 </section>
