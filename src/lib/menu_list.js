@@ -1,7 +1,7 @@
 export const menu_list = [
     {
-        title: "About",
-        link: "/about"
+        title: "Team",
+        link: "/team"
     },
     {
         title: "Blog",
