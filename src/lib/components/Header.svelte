@@ -28,7 +28,7 @@
             </Button>
         </div>
     </nav>
-    <div class="hidden flex-col fixed w-full h-full z-20" class:activeText={toggleMenuState}>
+    <div class="hidden flex-col fixed w-full h-[10%] translate-y-20 z-20" class:activeText={toggleMenuState}>
         {#each menu_list as item}
             <a class="link-header text-3xl my-3 p-2" class:activeText={toggleMenuState} href="{item.link}">{item.title}</a>
         {/each}
@@ -37,7 +37,7 @@
 
 <style>
     .activeMenu {
-        padding-bottom: 100vh;
+        padding-bottom: 18vh;
         transition: all;
         transition-duration: 300ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
