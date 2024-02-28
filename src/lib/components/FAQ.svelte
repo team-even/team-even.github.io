@@ -2,9 +2,9 @@
   import * as Accordion from "$lib/components/ui/accordion";
 </script>
 
-<section class="flex md:flex-row flex-col justify-center items-center py-20">
+<section class="flex md:flex-row flex-col justify-center items-center py-10">
     <div>
-        <h1 class="font-body text-4xl md:mx-52 mb-10">Learn more</h1>
+        <h1 class="font-body text-6xl md:mx-52 mb-10">Learn more</h1>
     </div>
 <Accordion.Root class="w-full md:max-w-[25%] max-w-[60%]">
   <Accordion.Item value="item-1">
